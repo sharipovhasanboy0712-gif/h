@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milliy Hunarmandchilik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigatsiya -->
+    <header>
+        <div class="logo">HUNAR.UZ</div>
+        <nav>
+            <a href="#haqida">Haqida</a>
+            <a href="#turlar">Yo'nalishlar</a>
+            <a href="#aloqa">Aloqa</a>
+        </nav>
+    </header>
+
+    <!-- Asosiy qism (Hero) -->
+    <section class="hero">
+        <h1>Qo‘l mehnati va qalb harorati</h1>
+        <p>O‘zbek milliy hunarmandchiligining nodir namunalari va an'analari.</p>
+        <a href="#turlar" class="btn">Katalog bilan tanishish</a>
+    </section>
+
+    <!-- Hunarmandchilik turlari -->
+    <section id="turlar" class="container">
+        <h2>Asosiy yo‘nalishlar</h2>
+        
+        <!-- Filtrlash tugmalari -->
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">Barchasi</button>
+            <button class="filter-btn" data-category="kulolchilik">Kulolchilik</button>
+            <button class="filter-btn" data-category="oymakorlik">O‘ymakorlik</button>
+            <button class="filter-btn" data-category="toqimachilik">To‘qimachilik</button>
+        </div>
+
+        <!-- Mahsulotlar / Yo'nalishlar ro'yxati -->
+        <div class="grid" id="craft-grid">
+            <div class="card" data-category="kulolchilik">
+                <h3>Rishton kulolchiligi</h3>
+                <p>Tabiiy loy va ishqorli sir yordamida tayyorlangan moviy laganlar.</p>
+            </div>
+
+            <div class="card" data-category="oymakorlik">
+                <h3>Yog‘och o‘ymakorligi</h3>
+                <p>Yong‘oq va chinor yog‘ochlariga ishlangan nozik islimiy naqshlar.</p>
+            </div>
+
+            <div class="card" data-category="toqimachilik">
+                <h3>Marg‘ilon atlasi</h3>
+                <p>Tabiiy ipak tolalaridan qo‘lda to‘qilgan kamalakrang matolar.</p>
+            </div>
+
+            <div class="card" data-category="kulolchilik">
+                <h3>G‘ijduvon sopollari</h3>
+                <p>Issiq ranglar va o‘ziga xos geometrik bezaklarga boy idishlar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qisqacha ma'lumot -->
+    <section id="haqida" class="about">
+        <div class="container">
+            <h2>Nega hunarmandchilik?</h2>
+            <p>Har bir buyum — bu takrorlanmas san'at asari. Zavod mahsulotlaridan farqli o‘laroq, qo‘lda yasalgan buyumlarda ustaning mehnati va tarixi yashaydi.</p>
+        </div>
+    </section>
+
+    <!-- Aloqa qismi -->
+    <footer id="aloqa">
+        <p>Ustalar bilan bog‘lanish: <strong>info@hunar.uz</strong> | +998 90 123 45 67</p>
+        <p class="copy">© 2026 Milliy Hunarmandchilik</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
